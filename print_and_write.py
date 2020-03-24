@@ -15,7 +15,7 @@ if not os.path.isdir(output_dir_path):
     os.mkdir(output_dir_path)
 
 
-# get date/time and combined with script name to make a file name for the output file
+# get date/time to later combined it with script name to make a file name for the output file
 date_time = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 
 
